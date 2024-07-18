@@ -5,34 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <img class="cabecalho__menu__logo" src="./assets/mario_gif.gif" alt="">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a  class="cabecalho__menu__link" href="curiculo.html">Currículo</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Deselvolvedor <strong class="titulo-destaque">Back-end!</strong></h1>
 
             <p class="apresentacao__conteudo__texto" >Olá! Sou Felipe Zerbini, estudante de Engenharia de Controle e Automação
-            no Instituto Federal do Espírito Santo (IFES), apaixonado por programação 
+            no Instituto Federal do Espírito Santo (IFES), entusiasta da programação 
             e em busca de oportunidades para adquirir experiência como desenvolvedor de software.
             Tenho habilidades em <strong>Python, C# e SQL</strong>, e estou ansioso para 
             contribuir em projetos desafiadores.</p>
 
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/felipe-zerbini/">Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/Zerbini1">GitHub</a> 
+                <h2 class="apresentacao__links__subtitulo">Acesse minha redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/felipe-zerbini/">
+                    <img src="./assets/linkedin.png" alt="">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/Zerbini1">
+                    <img src="assets/github.png" alt="">
+                    GitHub
+                </a> 
             </div> 
             
         </section>
-        <img class="apresentacao__imagem-perfil" src="mario_gif.gif" alt="">
+        <img class="apresentacao__imagem-perfil" src="assets/perfil.jpg" alt="">
 
     </main>
 
-    <footer>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Felipe Zerbini</p>
     </footer>
 </body>
 
